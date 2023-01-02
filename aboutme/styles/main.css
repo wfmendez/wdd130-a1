@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+main {
+    width: 1080px;
+    margin: auto;
+}
+
+#content{
+    width: 600px;
+    margin: auto;
+}
+
+.profile-picture{
+    width: 220px;
+}
