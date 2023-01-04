@@ -107,6 +107,7 @@ p {
 
 .secondary {
     background-color: var(--secondary-color);
+    color: #e4e0e0;
 }
 
 .accent1 {
