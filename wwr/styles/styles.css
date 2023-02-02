@@ -1,0 +1,141 @@
+/*///////////////////////////////////////////////////
+=====Body, and  Content (A container for our entire page)=====
+//////////////////////////////////////////////////*/
+
+body {
+    background-color: #85C6D6;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/*///////////////////////////////////////////////////
+=====Headlines=====
+//////////////////////////////////////////////////*/
+
+h4 {
+    color: #151515;
+}
+
+/*///////////////////////////////////////////////////
+=====Header, Logo Box, and Navigation=====
+//////////////////////////////////////////////////*/
+
+header {
+    background-color: #3D3B3F;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav a {
+    text-align: center;
+    color: #FCCA5F;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #FCCA5F;
+    color: #3D3B3F;
+}
+
+/*///////////////////////////////////////////////////
+=====Hero=====
+//////////////////////////////////////////////////*/
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.home-title{
+    color: #3D3B3F;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.book {
+    background-color: #F47C66;
+    color: #3D3B3F;
+    text-decoration: none;
+}
+
+.book:hover {
+    background-color: #FCCA5F;
+    color: #3D3B3F;
+}
+
+
+/*///////////////////////////////////////////////////
+=====Main Section=====
+//////////////////////////////////////////////////*/
+
+main section {
+    text-align: center;
+}
+
+.icon {
+    width: 80px;
+}
+
+/*///////////////////////////////////////////////////
+=====Message=====
+//////////////////////////////////////////////////*/
+
+#background {
+    height: 725px;
+    background-color: #3D3B3F;
+}
+
+.msg {
+    background-color: #FCCA5F;
+}
+
+.msg h2 {
+    color: #151515;
+}
+
+.msg p {
+    color: #3D3B3F;
+}
+
+.join {
+    background-color: #F47C66;
+    color: #3D3B3F;
+    text-decoration: none;
+}
+
+.join:hover {
+    background-color: #85C6D6;
+    color: #3D3B3F;
+}
+
+/*///////////////////////////////////////////////////
+=====Footer=====
+//////////////////////////////////////////////////*/
+
+footer {
+    background-color: #3D3B3F;
+    color: #FCCA5F;
+}
+
+footer a {
+    color: #FCCA5F;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F47C66;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
