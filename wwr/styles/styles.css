@@ -1,9 +1,19 @@
 /*///////////////////////////////////////////////////
+=====Fonts=====
+//////////////////////////////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*///////////////////////////////////////////////////
 =====Body, and  Content (A container for our entire page)=====
 //////////////////////////////////////////////////*/
 
 body {
     background-color: #85C6D6;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 #content {
@@ -14,6 +24,10 @@ body {
 /*///////////////////////////////////////////////////
 =====Headlines=====
 //////////////////////////////////////////////////*/
+
+h2 {
+    margin: 0;
+}
 
 h4 {
     color: #151515;
@@ -31,10 +45,15 @@ header {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color: #FCCA5F;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -56,6 +75,9 @@ nav a:hover {
 
 .home-title{
     color: #3D3B3F;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .button-box {
@@ -66,6 +88,10 @@ nav a:hover {
     background-color: #F47C66;
     color: #3D3B3F;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -82,8 +108,23 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
 }
 
 /*///////////////////////////////////////////////////
@@ -97,20 +138,29 @@ main section {
 
 .msg {
     background-color: #FCCA5F;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #151515;
+    font-family: "Poppins", Arial, sans-serif;
 }
 
 .msg p {
     color: #3D3B3F;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .join {
     background-color: #F47C66;
     color: #3D3B3F;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -125,6 +175,8 @@ main section {
 footer {
     background-color: #3D3B3F;
     color: #FCCA5F;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -138,4 +190,8 @@ footer a:hover {
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+footer .social img { 
+    padding-top: 15px;
 }
