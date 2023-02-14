@@ -114,16 +114,15 @@
 /* Activity 4 styles */
 .content4 {
     /* This is the parent of the activity 4 boxes. */
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin: 0;
 }
 
 .red4 {
-    width: 300px;
+    width: 100%;
     height: 400px;
     background-color: red;
     grid-row: 1/4;
@@ -131,19 +130,19 @@
 }
 
 .green4 {
-    width: 300px;
+    width: 100%;
     height: 100%;
     background-color: green;
 }
 
 .yellow4 {
-    width: 300px;
+    width: 100%;
     height: 100%;
     background-color: gold;
 }
 
 .blue4 {
-    width: 300px;
+    width: 100%;
     height: 100%;
     background-color: blue;
 }
@@ -155,7 +154,7 @@
 }
 
 .red5 {
-    width: 700px;
+    width: 100%;
     height: 100px;
     background-color: red;
 }
@@ -168,14 +167,15 @@
 }
 
 .yellow5 {
-    width: 700px;
-    height: 275px;
+    width: 100%;
+    height: max-content;
     background-color: gold;
+
 
 }
 
 .blue5 {
-    width: 700px;
+    width: 100%;
     height: 100px;
     background-color: blue;
 }
