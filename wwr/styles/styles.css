@@ -148,7 +148,7 @@ main section img {
 
 .home-grid {
     display: grid;
-    grid-template-columns: (10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(auto-fit, minmax(100px, auto));
     
 }
@@ -165,21 +165,21 @@ main section img {
 }
 
 .rivers-card {
-    margin: 200px 0;
+    margin: 200px 75px;
     grid-column: 2 / 4;
     grid-row: 2 / 3;
 }
 
 
 .camping-card {
-    margin: 200px 0;
+    margin: 200px 75px;
     grid-column: 5 / 7;
     grid-row: 2 / 3;
 }
 
 
 .rapids-card {
-    margin: 200px 0;
+    margin: 200px 75px;
     grid-column: 8 / 10;
     grid-row: 2 / 3;
 }
