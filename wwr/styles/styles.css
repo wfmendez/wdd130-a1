@@ -158,28 +158,22 @@ main section img {
     padding-top: 10px;
 }
 
-.cards {
-    grid-column: 2 / 10;
-    display: flex;
-    justify-items: center;
-}
-
 .rivers-card {
-    margin: 200px 60px;
+    margin: 200px 0px;
     grid-column: 2 / 4;
     grid-row: 2 / 3;
 }
 
 
 .camping-card {
-    margin: 200px 60px;
+    margin: 200px 0px;
     grid-column: 5 / 7;
     grid-row: 2 / 3;
 }
 
 
 .rapids-card {
-    margin: 200px 60px;
+    margin: 200px 0px;
     grid-column: 8 / 10;
     grid-row: 2 / 3;
 }
