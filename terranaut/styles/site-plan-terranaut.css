@@ -67,6 +67,15 @@ img {
 }
 
 .example3 {
+    width: 100%;
+}
+
+.example4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.example4 img {
     width: 50%;
 }
 
