@@ -49,6 +49,27 @@ img {
     margin: 0 auto;
 }
 
+.example1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.example1 img{
+    width: 33%;
+}
+.example2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.example2 img {
+    width: 50%;
+}
+
+.example3 {
+    width: 50%;
+}
+
 h1,
 h2,
 h3,
