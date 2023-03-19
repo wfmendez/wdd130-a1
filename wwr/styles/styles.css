@@ -83,6 +83,7 @@ nav a:hover {
 
 #hero-img {
     width: 100%;
+    height: 100vh;
 }
 
 #hero-msg {
@@ -274,7 +275,89 @@ footer .social img {
     padding-top: 15px;
 }
 
+
+/*///////////////////////////////////////////////////
+////////////////////////////////////////////////////
+=====Rivers Page=====
+///////////////////////////////////////////////////
+//////////////////////////////////////////////////*/
+
+#body-rivers{
+    background-color: #151515;
+}
+
+#hero-rivers {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: -100px;
+}
+
+#hero-msg-rivers {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 8rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.headlines-hero-rivers {
+    background-color: #FCCA5F9b;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#hero-msg-rivers h1 {
+    text-align: left;
+    margin: 10px;
+    color: #3D3B3F;
+}
+
+#hero-msg-rivers h4 {
+    font-size: 0.8em;
+    text-align: left;
+    margin: 10px;
+    color: #151515;
+}
+
+.headline-rivers {
+    width: 100%;
+    padding: 1rem 0rem 1rem 0rem;
+    margin-top: -5px;
+    background-color: #FCCA5F;
+}
+
+
+.headline-rivers h2 {
+    margin-left: 40px;
+    }
+
+
+.content-rivers {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    background-color: #85C6D6;
+    color: #3D3B3F;
+}
+
+.p-rivers{
+    margin: 2rem;
+}
+
+.cards-rivers {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.cards-rivers img{
+    width: 100%;
+}
+
 @media screen and (max-width: 900px) {
+    
 
     #hero,
     .home-grid {
@@ -295,6 +378,10 @@ footer .social img {
     #hero {
         margin-top: 0;
     }
+
+    #hero-rivers {
+            grid-template-columns: 1fr 1fr;
+     }
 
     #hero-msg {
         margin-top: 0;
