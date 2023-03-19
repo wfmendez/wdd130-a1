@@ -288,14 +288,14 @@ footer .social img {
 
 #hero-rivers {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr;
     margin-top: -100px;
 }
 
 #hero-msg-rivers {
     grid-column: 1/2;
     grid-row: 1/2;
-    margin: 8rem 1rem 1rem 1rem;
+    margin: 10rem 1rem 1rem 4rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
