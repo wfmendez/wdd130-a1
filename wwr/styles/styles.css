@@ -362,7 +362,7 @@ footer .social img {
 
 form {
     /* Center the form on the page */
-    margin: 0 auto;
+    margin: 100px auto;
     width: 400px;
     /* Form outline */
     padding: 1em;
