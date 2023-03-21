@@ -44,19 +44,18 @@ h1, h2, h3, h4, h5, h6 {
 ///////////////////////////////////////////////////////////////////////////////////*/
 
 header {
-    background-color: #3D3B3F;
+    background-color: #86DF89;
     display: grid;
     grid-template-columns: 20vh auto;
 }
 
 .logo {
-    width: 150px;
-    margin-bottom: -25px;
-    margin-top: -20px;
+    width: 95px;
+    margin: 5px;
 }
 
 #logo_link {
-    margin-left: 40px;
+    margin-left: 60px;
     justify-self: center;
     align-self: center;
 }
@@ -68,14 +67,14 @@ nav {
 
 nav a {
     text-align: center;
-    color: #FCCA5F;
+    color: #1B0A0E;
     text-decoration: none;
-    padding: 35px;
+    padding: 40px;
 }
 
 nav a:hover {
-    background-color: #FCCA5F;
-    color: #3D3B3F;
+    background-color: #4A3439;
+    color: #86DF89;
 }
 
 
