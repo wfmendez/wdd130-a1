@@ -5,25 +5,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 /*/////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////// Reset ////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////*/
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-/*/////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// Body ////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: #efe8e8;
     font-family: "Merriweather", Helvetica, sans-serif;
     font-size: 22px;
-    margin: 0;
-    padding: 0;
 }
 
 #content {
@@ -82,8 +76,72 @@ nav a:hover {
 //////////////////////////////// Hero ////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////*/
 
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+.hero {
+    position: relative;
+}
+
+.hero-box{
+    position: relative;
+}
+
+.hero-msg {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// Slider ////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////*/
+
+.slider {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #1B0A0E;
+}
+
+.slider .slider-img-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transition-delay: 0s;
+    z-index: 1;
+    clip-path: circle(0px at center);
+}
+
+.slider input[type="radio"]:checked + .slider-img-box {
+    z-index: 10;
+    clip-path: circle(1000px at center);
+    transition-delay: 0.75s;
+}
+
+.slider .slider-img-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider input[type="radio"]{
+    position: relative;
+    z-index: 1000;
+    margin: 5px;
+    margin-bottom: 40px;
+    outline: none;
+    cursor: pointer;
 }
