@@ -257,3 +257,47 @@ nav a:hover {
     margin: 40px 0;
 }
 
+/*/////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// Footer  ////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////*/
+
+footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80% 20%;
+}
+
+footer, footer p, footer a{
+    background-color: #1B0A0E;
+    color: #efe8e8;
+}
+
+.social-icons-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 30% 70%;
+    text-align: center;
+}
+
+.social-icons-box h4{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.social-icon {
+    padding-top: 15px;
+}
+
+.footer-links-box {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.footer-link{
+    grid-column: 1/2;
+}
+
+footer p{
+    grid-column: 1/3;
+    text-align: center;
+}
