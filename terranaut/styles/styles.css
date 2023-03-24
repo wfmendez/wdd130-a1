@@ -259,6 +259,7 @@ nav a:hover {
     border-radius: 0.5em;
 }
 
+
 .l-but{
     margin: 40px 0;
 }
@@ -288,7 +289,7 @@ footer, footer p, footer a{
 .social-box h4{
     grid-column: 1/4;
     grid-row: 1/2;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .icons-box {
@@ -313,7 +314,7 @@ footer, footer p, footer a{
 .social-icon {
     padding-top: 15px;
     margin: 20px;
-    width: 100px;
+    width: 120px;
 }
 
 .footer-links-box {
@@ -321,10 +322,16 @@ footer, footer p, footer a{
     grid-template-columns: 40% 60%;
 }
 
-.footer-link{
+.footer-link {
     grid-column: 1/2;
     margin-left: 10%;
     margin-top: 10%;
+    padding: 10px;
+}
+
+.footer-links-box a:hover {
+    background-color: #86DF89;
+    color: #4A3439;
 }
 
 footer p{
