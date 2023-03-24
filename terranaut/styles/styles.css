@@ -286,8 +286,10 @@ footer, footer p, footer a{
 }
 
 .icons-box {
+    display: grid;
     grid-column: 1/4;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    line-height: 0;
 }
 
 .facebook {
