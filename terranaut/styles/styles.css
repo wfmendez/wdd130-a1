@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", Arial;;
 }
 
+h1 {
+    color: #31932C;
+}
+
 h2, h3 {
     color: #31932C;
     margin: 30px 0;
@@ -218,6 +222,11 @@ nav a:hover {
     border-radius: 0.5em;
 }
 
+.button-box a:hover {
+    background-color: #4A3439;
+        color: #86DF89;
+}
+
 .s-but {
     margin-top: 60px;
     margin-bottom: 50px
@@ -245,7 +254,7 @@ nav a:hover {
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////// Message and image  ////////////////////////////////////////
+//////////////////////////////// Message  ////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////*/
 
 .complete-msg-button-box {
@@ -259,6 +268,10 @@ nav a:hover {
     border-radius: 0.5em;
 }
 
+.long-button-box a:hover {
+    background-color: #4A3439;
+    color: #86DF89;
+}
 
 .l-but{
     margin: 40px 0;
