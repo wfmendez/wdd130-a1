@@ -94,7 +94,7 @@ nav a:hover {
 
 .hero-msg {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -103,6 +103,12 @@ nav a:hover {
 .hero-img {
     width: 100%;
     height: 100vh;
+}
+
+.hero h1 {
+    margin-bottom: 5px;
+    font-size: 2em;
+    font-weight: 700;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////
@@ -306,7 +312,8 @@ footer, footer p, footer a{
 
 .social-icon {
     padding-top: 15px;
-    margin: 40px;
+    margin: 20px;
+    width: 100px;
 }
 
 .footer-links-box {
