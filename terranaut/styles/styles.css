@@ -187,7 +187,7 @@ nav a:hover {
 
 .double-msg-box {
     display: grid;
-    grid-template: 50% 50%;
+    grid-template-columns: 50% 50%;
     text-align: left;
     font-size: 0.8em;
 }
@@ -295,7 +295,7 @@ footer, footer p, footer a{
 .social-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row: 30% 70%;
+    grid-template-rows: 30% 70%;
     text-align: center;
 }
 
