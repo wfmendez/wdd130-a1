@@ -272,20 +272,39 @@ footer, footer p, footer a{
     color: #efe8e8;
 }
 
-.social-icons-box {
+.social-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 30% 70%;
     text-align: center;
 }
 
-.social-icons-box h4{
+.social-box h4{
     grid-column: 1/4;
     grid-row: 1/2;
+    margin-top: 5%;
+}
+
+.icons-box {
+    grid-column: 1/4;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.facebook {
+    grid-column: 2/3;
+}
+
+.instagram {
+    grid-column: 3/4;
+}
+
+.twitter {
+    grid-column: 4/5;
 }
 
 .social-icon {
     padding-top: 15px;
+    margin: 40px;
 }
 
 .footer-links-box {
@@ -295,9 +314,12 @@ footer, footer p, footer a{
 
 .footer-link{
     grid-column: 1/2;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 footer p{
     grid-column: 1/3;
     text-align: center;
+    padding: 40px 0;
 }
