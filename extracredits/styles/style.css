@@ -62,7 +62,6 @@ section h2 {
 
 form {
     grid-column: 2/7;
-    display: grid;
 }
 
 legend {
@@ -92,7 +91,7 @@ input {
 button {}
 
 
-section>div {
+section div {
     grid-template-columns: 1fr 2f;
     grid-gap: 1rem;
 }
