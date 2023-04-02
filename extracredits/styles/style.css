@@ -25,7 +25,6 @@ START grid layout extra credit
 
 .grid2 h2 {
     grid-column: 3/5;
-    align-items: center;
 }
 
 .grid3 {
@@ -37,7 +36,6 @@ START grid layout extra credit
 
 .grid3 h3 {
     grid-column: 2/5;
-    align-items: center;
 }
 
 .grid4 {
@@ -53,7 +51,6 @@ START grid layout extra credit
 
 section {
     grid-column: 2/9;
-    background-color: orange;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
@@ -66,10 +63,10 @@ section h2 {
 form {
     grid-column: 2/7;
     display: grid;
-    background-color: red;
 }
 
-legend {}
+legend {
+}
 
 fieldset {
     display: grid;
@@ -79,9 +76,7 @@ fieldset {
 fieldset div {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    Grid-gap: 0 1em;
-    background-color: blue;
-    grid-template-columns: 1fr 2fr;
+    grid-gap: 0 1em;
     
 }
 
@@ -97,5 +92,8 @@ input {
 button {}
 
 
-section>div {}
+section>div {
+    grid-template-columns: 1fr 2f;
+    grid-gap: 1rem;
+}
 
