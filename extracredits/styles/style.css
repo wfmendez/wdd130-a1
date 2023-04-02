@@ -62,33 +62,38 @@ section h2 {
 
 form {
     grid-column: 2/7;
+    padding: 1rem;
+    width: 100%;
 }
 
 legend {
 }
 
-fieldset {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-}
 
 fieldset div {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-gap: 0 1em;
+    padding: 1rem;
     
 }
 
 label {
+    grid-column: 1/2;
     text-align: right;
+    width: 100%;
 }
 
 input {
+    grid-column: 2/3;
     text-align: left;
     width: 100%;
 }
 
-button {}
+button {
+    width: 100%;
+    padding: 1rem;
+}
 
 
 section div {
