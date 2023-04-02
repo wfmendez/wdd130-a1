@@ -1,0 +1,55 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+* {}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-top: 2em;
+        padding-bottom: 2em;
+}
+
+.grid1 h1 {}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.grid2 h2 {}
+
+.grid3 {
+    display: grid;
+        grid-template-columns: repeat(12, 1fr);
+}
+
+.grid3 h3 {}
+
+.grid4 {
+    display: grid;
+        grid-template-columns: repeat(12, 1fr);
+}
+
+.grid4 h2 {}
+
+section {}
+
+
+section h2 {}
+
+form {}
+
+legend {}
+
+fieldset>div {}
+
+label {}
+
+input {}
+
+button {}
+
+
+section>div {}
+

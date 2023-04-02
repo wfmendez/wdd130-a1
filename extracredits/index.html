@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+
+    <title>Grid Layout Example</title>
+
+    <meta name="description" content="A simple webpage to demonstrate how to do Grid Layout" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <div class="grid1">
+        <h1>This is grid 1</h1>
+        <div class="grid2">
+            <h2>This is Grid 2</h2>
+            <div class="grid3">
+                <h3>This is grid3</h3>
+            </div>
+        </div>
+        <div class="grid4">
+            <h2>This is grid4</h2>
+        </div>
+        <section>
+            <h2>This is grid 5</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Form 1 - Grid 6</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="fullname" required placeholder="Full Name" />
+                    </div>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="e-mail" placeholder="test@example.com" />
+                    </div>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+            <div>
+                <hr />
+            </div>
+            <form action="#">
+                <fieldset>
+                    <legend>Form 2 - Grid 7</legend>
+                    <div>
+                        <label for="name1">First Name:</label>
+                        <input type="text" id="name1" name="firstname" required placeholder="First Name" />
+                        <label for="name2">Last Name:</label>
+                        <input type="text" id="name2" name="lastname" required placeholder="LastName" />
+                    </div>
+                    <div>
+                        <label for="email2">Email: </label>
+                        <input type="email" id="email2" name="email2" placeholder="test@example.com" />
+                    </div>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
