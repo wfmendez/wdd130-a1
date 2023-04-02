@@ -486,3 +486,27 @@ ol {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+#reflection-box{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#save-planet-box {
+    grid-column: 1/2;
+}
+
+#save-planet-box img {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#reflection-msg {
+    grid-column: 2/3;
+}
+
+#reflection-msg p {
+    margin: 100px;
+}
