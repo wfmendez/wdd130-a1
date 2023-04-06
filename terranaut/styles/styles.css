@@ -528,4 +528,44 @@ ol {
         display: block;
     }
 
+    #hero,
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    
+    nav,
+    footer {
+        flex-direction: column;
+    }
+    
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    
+    #hero {
+        margin-top: 0;
+    }
+    
+    #hero-msg {
+        margin-top: 0;
+    }
+    
+    #hero-msg h4 {
+        display: none;
+    }
+    
+    .complete-msg-box {
+        margin: 45px;
+    }
+
+    .ecosystem-img-box img {
+        height: auto;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+
 }
